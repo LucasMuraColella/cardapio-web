@@ -29,6 +29,6 @@ namespace CardapioWeb.Models
         public bool Produto_Preferido { get; set; }
         public bool Em_Estoque { get; set; }
 
-        public virtual Categoria Categoria { get; set; }
+        public virtual Categoria Categoria { get; set; } // gera uma chave estrangeira, produto deriva de categoria
     }
 }
