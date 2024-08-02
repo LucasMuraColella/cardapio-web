@@ -14,7 +14,7 @@ namespace CardapioWeb.Repositories
 
         public IEnumerable<Categoria> GetAll()
         {
-            return _dbContext.Categorias.ToList();
+            return _dbContext.Categorias.ToList(); // Buscar todas as categorias do banco de dados
         }
     }
 }
